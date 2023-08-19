@@ -1,0 +1,175 @@
+/* First Section */
+.first {
+  background-image: url(../../assets/logogo.png);
+}
+
+/* Second Section */
+.second {
+  margin-top: -80px;
+  margin-bottom: -120px;
+  color: var(--three);
+}
+
+.second>div:first-of-type {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.trainers_boxes-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Trainers Boxes */
+.trainers_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trainers_boxes>div {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.trainers_boxes img {
+  width: 100%;
+  height: auto;
+}
+
+.trainers_boxes .info {
+  background-color: var(--three);
+  color: var(--white);
+  padding: 20px;
+}
+
+.trainers_boxes .info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--four);
+  margin-bottom: 10px;
+}
+
+.trainers_boxes .info div h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.trainers_boxes .info div i {
+  color: var(--yellow);
+  font-size: 15px;
+  text-align: center;
+}
+
+.trainers_boxes .info>p {
+  color: var(--four);
+  margin: 10px 0;
+}
+
+.trainers_boxes .info>a i {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.trainers_boxes .info>a i:hover {
+  color: var(--four);
+}
+
+@media (max-width: 800px) {
+  .trainers_boxes {
+    justify-content: center;
+  }
+
+  .trainers_boxes>div {
+    width: 100%;
+  }
+}
+
+/* Third Section */
+.third {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.third h2 {
+  color: var(--three);
+  margin: 20px 0;
+}
+
+.third p:last-of-type {
+  width: 50%;
+  margin: 0 auto;
+  color: var(--four);
+}
+
+@media (max-width: 800px) {
+  .third p:last-of-type {
+    width: 90%;
+  }
+}
+
+/* Section Four */
+.four {
+  padding: 2rem 0;
+  background-color: var(--three);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.four img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.four button:first-of-type {
+  background-color: var(--one);
+  border: 1px solid var(--one);
+}
+
+.four button:first-of-type:hover {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.four button:first-of-type::before {
+  background-color: var(--three);
+}
+
+.four button:last-of-type {
+  background-color: var(--three);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.four button:last-of-type::before {
+  background-color: var(--one);
+}
+
+.four button:last-of-type:hover {
+  color: var(--three);
+  border-color: var(--three);
+}
+
+@media (max-width: 600px) {
+  .four img {
+    max-width: 300px;
+  }
+
+  .trainers_boxes>div {
+    width: 100%;
+    margin-right: 0;
+  }
+}
