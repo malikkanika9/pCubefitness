@@ -8,13 +8,11 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.borderedImage {
+.imageContainer{
   border: 5px solid black;
-  /* Adjust border color and size as needed */
   max-width: 100%;
   max-height: 400px;
   box-sizing: border-box;
-  /* Ensure the border doesn't affect image dimensions */
 }
 .trainers .trainers_head > p{
 

@@ -4,8 +4,6 @@ import FourthSection from './FourthSection';
 import Trainers from '../trainers/Trainers';
 import Eighth from './Eighth';
 import Loader from "react-js-loader";
-// Import your Loader component here
-
 const Home = () => {
 
   const [isLoading, setIsLoading] = useState(true);
