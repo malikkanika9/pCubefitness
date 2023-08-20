@@ -1,21 +1,35 @@
-import FirstSection from "./FirstSection";
-import FivethSection from "./FivethSection";
-import FourthSection from "./FourthSection";
-import ThirdSection from "./ThirdSection";
-import Sixth from "./Sixth";
-import Trainers from "../trainers/Trainers";
-import Eighth from "./Eighth";
-import Nineth from "./Nineth";
-import Tenth from "./Tenth";
+import React, { useState, useEffect } from 'react';
+import FirstSection from './FirstSection';
+import FourthSection from './FourthSection';
+import Trainers from '../trainers/Trainers';
+import Eighth from './Eighth';
+import Loader from "react-js-loader";
+// Import your Loader component here
+
 const Home = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+     
+      setIsLoading(false);
+    }, 2000); 
+  }, []);
+
   return (
     <div className={`margin-sections`}>
-      <FirstSection />
-            <FourthSection />
+      {isLoading ? (
      
-      <Trainers />
-      <Eighth />
-     
+        <Loader />
+      ) : (
+              <>
+          <FirstSection />
+          <FourthSection />
+          <Trainers />
+          <Eighth />
+        </>
+      )}
     </div>
   );
 };
