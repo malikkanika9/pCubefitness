@@ -8,7 +8,7 @@ const FirstSection = () => {
   return (
     <div className={styles.first_section} data-aos="zoom-out-down">
       <div >
-       <video src={homme} style={{ width: "100vw", height: "90vh", objectFit: "cover" }} >
+       <video  style={{ width: "100vw", height: "90vh", objectFit: "cover" }} >
           <source src="https://drive.google.com/uc?export=download&id=1xi7jLL8L0TOyy-1j1vZVds9HKzg1S5JX" type="video/mp4" />
       </video>
 

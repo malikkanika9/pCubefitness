@@ -6,8 +6,7 @@ import photo1 from "../../assets/PHOTO-2023-07-22-14-10-19 (1).jpg";
 import photo2 from "../../assets/IMG_2268 (2).JPG";
 import photo3 from "../../assets/IMG_0708 (2).JPG";
 import photo4 from "../../assets/IMG_1574.JPG";
-import photo5 from "../../assets/trainers3.png";
-import photo6 from "../../assets/trainers4.png";
+
 
 const Second = () => {
   return (
