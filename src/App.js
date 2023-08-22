@@ -2,10 +2,11 @@ import React, { Suspense } from "react";
 import { Route, Routes } from "react-router";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Home from "./components/home/Home";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import Second from "./components/trainersPage/Second";
-
+const Home = React.lazy(() =>
+  import("./components/home/Home")
+);
 const About = React.lazy(() => import("./components/about/About"));
 const TrainersPage = React.lazy(() =>
   import("./components/trainersPage/TrainersPage")
