@@ -8,8 +8,8 @@ const FirstSection = () => {
   return (
     <div className={styles.first_section} data-aos="zoom-out-down">
       <div >
-       8
-        <img src={homme} style={{ width: "100vw", height: "94vh" }} alt="photo" />
+       
+        <img src={homme}  alt="photo" />
      
 
         <div className={styles.button_container}>
