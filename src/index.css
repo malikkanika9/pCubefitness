@@ -154,3 +154,38 @@ button:hover::before {
 *::-webkit-scrollbar-thumb:active {
   background-color: var(--three);
 }
+
+
+/* Styles for all screens */
+.main-image {
+  /* height: calc(82 - -933px); */
+  margin-top: 1rem;
+  width: -webkit-fill-available;
+}
+
+/* Styles for screens with a minimum width of 360px and a maximum width of 768px */
+@media (min-width: 360px) and (max-width: 768px) {
+  .main-image{
+    height: 173px;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+  }
+  .margin-sections {
+    margin-top: 25px;
+    margin-bottom: -3rem;
+}
+  /* No specific styles for .main-image in this media query */
+}
+
+/* Styles for screens with a minimum width of 769px */
+@media (min-width: 769px) {
+.margin-sections {
+  margin-top: 58px
+}
+  /* No specific styles for .main-image in this media query */
+}
+
+/* Styles for screens with a minimum width of 1025px */
+@media (min-width: 1025px) {
+  /* No specific styles for .main-image in this media query */
+}

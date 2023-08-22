@@ -3,7 +3,9 @@
   margin-bottom: -120px;
   color: var(--three);
 }
-
+.imageContainer ul {
+  height: 500px;
+}
 .trainers_head {
   text-align: center;
   margin-bottom: 30px;

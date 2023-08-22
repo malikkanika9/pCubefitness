@@ -7,9 +7,9 @@ const FirstSection = () => {
 
   return (
     <div className={styles.first_section} data-aos="zoom-out-down">
-      <div >
+   
        
-        <img src={homme}  alt="photo" />
+        <img className="main-image" src={homme}  alt="photo" />
      
 
         <div className={styles.button_container}>
@@ -20,7 +20,7 @@ const FirstSection = () => {
           </div> */}
         </div>
       </div>
-    </div>
+    
   );
 };
 
