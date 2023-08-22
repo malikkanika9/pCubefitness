@@ -39,8 +39,8 @@ const Seventh = () => {
       <div className={styles.trainers_head}>
         <p className="paragraph">Gallery</p>
       </div>
-      <div className={styles.imageContainer}>
-        <HoverCarousel images={images} style={{height:"20vh"}} />
+      <div className={styles.imageContainer} >
+        <HoverCarousel   images={images}  />
       </div>
     </div>
   );
