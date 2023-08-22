@@ -63,6 +63,10 @@
 .boxes .box > div i:hover {
   color: var(--four);
 }
+.imageContainer ul{
+  height: 500px;
+}
+
 
 @media (max-width: 800px) {
   .boxes {
