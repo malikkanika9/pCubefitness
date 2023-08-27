@@ -14,8 +14,6 @@ const TrainersPage = React.lazy(() =>
 
 const Contact = React.lazy(() => import("./components/contact/Contact"));
 
-
-
 const App = () => {
   return (
     <div>
@@ -25,11 +23,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-             {/* <Route path="trainers" element={<TrainersPage />} /> */}
           <Route path="studios" element={<TrainersPage/>} />
         <Route path="contact" element={<Contact />} />
        
-          {/* <Route path="calculator" element={<Calculator />} /> */}
          
         </Routes>
       </Suspense>

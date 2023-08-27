@@ -1,7 +1,7 @@
 import styles from "./home.module.css";
 
 import photo1 from "../../assets/motivation.jpg";
-import photo2 from "../../assets/motivation (2).jpg";
+import photo2 from "../../assets/victor-hugo-sculpture-3.jpg";
 import photo3 from "../../assets/Screenshot 2023-08-07 185037.png";
 import { useNavigate } from "react-router";
 
