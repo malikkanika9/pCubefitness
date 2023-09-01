@@ -486,13 +486,18 @@
   height: 100%;
   background-color: #00000099;
 }
-
+.main-image{
+  max-width: -webkit-fill-available !important;
+}
 @media (max-width: 550px) {
   .ten div {
     width: 100%;
   }
 }
 @media (max-width: 900px) {
+  .main-image img{
+    max-width: -webkit-fill-available !important;
+  }
   .eight_content {
     flex-direction: column;
   }

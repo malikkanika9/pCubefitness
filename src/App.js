@@ -28,8 +28,9 @@ const App = () => {
        
          
         </Routes>
+        
       </Suspense>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

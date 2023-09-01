@@ -4,16 +4,17 @@ import FourthSection from './FourthSection';
 import Trainers from '../trainers/Trainers';
 import Eighth from './Eighth';
 import Loader from "react-js-loader";
+import Footer from '../footer/Footer';
 const Home = () => {
 
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
+  // useEffect(() => {
+  //   setTimeout(() => {
      
-      setIsLoading(false);
-    }, 2000); 
-  }, []);
+  //     setIsLoading(false);
+  //   }, 2000); 
+  // }, []);
 
   return (
     <div className={`margin-sections`}>
@@ -26,6 +27,7 @@ const Home = () => {
           <FourthSection />
           <Trainers />
           <Eighth />
+          <Footer />
         </>
       )}
     </div>
