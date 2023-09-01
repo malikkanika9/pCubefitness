@@ -126,11 +126,11 @@ header,
   .header_content ul {
     border-top: 1px solid #eee;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 40px;
     position: fixed;
     right: -300px;
-    top: 69px;
+    top: 100px;
     width: 191px;
     height: calc(100vh - 70px);
     background-color: var(--white);

@@ -52,7 +52,9 @@ p {
   margin-top: 122px;
   width: fit-content;
 }
-
+.zoom-out-down{
+  width: auto !important;
+}
 @media (max-width: 900px) {
   .margin-sections {
     margin-top: 102px;
