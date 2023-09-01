@@ -49,12 +49,13 @@ p {
 }
 
 .margin-sections {
-  margin-top: 90px;
+  margin-top: 122px;
+  width: fit-content;
 }
 
 @media (max-width: 900px) {
   .margin-sections {
-    margin-top: 70px;
+    margin-top: 102px;
   }
 }
 

@@ -2,6 +2,7 @@ import First from "./First";
 import Second from "./Second";
 import Third from "./Third";
 import Four from "./Four";
+import Footer from "../footer/Footer";
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
       <First />
       {/* <Second /> */}
       <Third />
+      <Footer/>
       {/* <Four /> */}
     </div>
   );

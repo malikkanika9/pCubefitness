@@ -3,6 +3,7 @@ import Four from "./Four";
 import Second from "./Second";
 import Third from "./Third";
 import Trainers from "../trainers/Trainers";
+import Footer from '../footer/Footer';
 
 const About = () => {
   return (
@@ -10,7 +11,8 @@ const About = () => {
       <First />
       <Second />
       <Third />
-      <Four />
+      <Four /> 
+      <Footer />
       {/* <Trainers /> */}
     </div>
   );

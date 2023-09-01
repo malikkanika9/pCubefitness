@@ -9,7 +9,7 @@ const FirstSection = () => {
     <div className={styles.first_section} data-aos="zoom-out-down">
    
        
-        <img className="main-image" src={homme} style={{maxWidth:'100%'}}  alt="photo" />
+        <img className="main-image" src={homme} style={{maxWidth:'100%',minWidth: '-webkit-fill-available'}}  alt="photo" />
      
 
         <div className={styles.button_container}>

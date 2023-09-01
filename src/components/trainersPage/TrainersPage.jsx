@@ -1,3 +1,4 @@
+import Footer from "../footer/Footer";
 import First from "./First";
 import Four from "./Four";
 import Second from "./Second";
@@ -8,6 +9,7 @@ const TrainersPage = () => {
     <div>
       <First />
       <Second />
+      <Footer/>
       {/* <Third />
       <Four /> */}
     </div>
