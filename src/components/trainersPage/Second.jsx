@@ -5,7 +5,7 @@ import styles from "./trainers.module.css";
 import photo1 from "../../assets/PHOTO-2023-07-22-14-10-19 (1).jpg";
 import photo2 from "../../assets/IMG_2268 (2).JPG";
 import photo3 from "../../assets/IMG_0708 (2).JPG";
-import photo4 from "../../assets/IMG_1574.JPG";
+import photo4 from "../../assets/IMG_9263.JPG"
 
 
 const Second = () => {
@@ -20,7 +20,7 @@ const Second = () => {
               <div>
                 <h4>pCube Fitness Rohtak </h4>
               </div>
-              <h5>13L, Model Town,Rohtak 124001 </h5>
+              <h5>13L, Model Town,Rohtak 124001 <br /> <br />Ph: 8059053050</h5>
             </div>
           </div>
           <div data-aos="fade-right">
@@ -29,7 +29,7 @@ const Second = () => {
               <div>
                 <h4>pCube Fitness Delhi</h4>
               </div>
-              <h5>F14/51, Model Town, New Delhi 110009</h5>
+              <h5>F14/51, Model Town, New Delhi 110009 <br /> <br />Ph: 8950892125</h5>
             </div>
           </div>
           <br />
@@ -39,7 +39,7 @@ const Second = () => {
               <div>
                 <h4>Turf by pCube</h4>
               </div>
-              <h5>Gk-2 M Block, New Delhi 110048 </h5>
+              <h5>Gk-2 M Block, New Delhi 110048<br /><br /> Ph: 8199981009 </h5>
             </div>
           </div>
           <div data-aos="fade-right">
@@ -48,7 +48,7 @@ const Second = () => {
               <div>
                 <h4>pCube Pitampura</h4>
               </div>
-              <h5>B162, Lok Vihar, New Delhi 110034</h5>
+              <h5>B162, Lok Vihar, New Delhi 110034<br /> <br /> Ph: 8014880880</h5>
             </div>
           </div>
         </div>

@@ -34,14 +34,14 @@ const Four = () => {
             <i className="fa-solid fa-person"></i>
             <h3>Years of experience</h3>
             <p>
-             Trust in our 4+ years of experience to guide you towards your fitness journey.
+             Trust in our 3+ years of experience to guide you towards your fitness journey.
             </p>
           </div>
         </div>
       </div>
       <div className={`${styles.numbers} container`}>
         <div>
-          <h3>4+</h3>
+          <h3>3+</h3>
           <p>Year of Experience</p>
         </div>
         <div>

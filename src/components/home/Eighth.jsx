@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import photo from "../../assets/WhatsApp Image 2023-08-04 at 4.57.03 PM.jpeg";
+import photo from "../../assets/IMG_0709.JPG";
 
 const Eighth = () => {
   return (

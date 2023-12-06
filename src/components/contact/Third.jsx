@@ -19,9 +19,13 @@ const Third = () => {
         <div>
           <i className="fa-solid fa-location-dot"></i>
           <h4>LOCATION</h4>
+          <p>Rohtak, Haryana, India <br /></p>
+          <p>New Delhi, Delhi, India  <br /> </p>
           
-          <p>Delhi Studio <br /> F14/51, Model Town, New Delhi 110009</p>
-          <p>Rohtak Studio <br /> 13L, Model Town, Rohtak 124001</p>
+
+
+        
+         
         </div>
       </div>
     </div>
