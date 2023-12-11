@@ -81,7 +81,7 @@ const Footer = () => {
       {/* <hr style={{ width: "100%" }} /> */}
       <p style={{ textAlign: "center", fontSize: "10px" }}>©Copyright 2021</p>
       <p style={{ textAlign: "center", fontSize: "10px" }}>
-        All Right Reserved. Powered by the pCubeFitness © 2021
+        All Right Reserved. Powered by the PcubeFitness © 2021
       </p>
     </div>
   );
