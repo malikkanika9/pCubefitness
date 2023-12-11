@@ -83,3 +83,17 @@
     width: 100%;
   }
 }
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Style for individual images in the carousel */
+.imageContainer img {
+  border: 3px solid black; /* Set the border style */
+  margin: 0 10px; /* Adjust the margin between images */
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain image aspect ratio */
+}
